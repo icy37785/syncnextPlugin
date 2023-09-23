@@ -1,0 +1,24 @@
+{
+    "name": "模板",
+    "description": "模板詳情",
+    "host": "https://base.abc",
+    "files": ["base.js"],
+    "pages": [
+      {
+        "key": "index",
+        "title": "最近更新",
+        "url": "${pageNumber}",
+        "javascript": "buildMedias"
+      }
+    ],
+    "episodes": {
+      "javascript": "Episodes"
+    },
+    "player": {
+      "javascript": "Player"
+    },
+    "search": {
+        "url": "${keyword}",
+        "javascript": "Search"
+    }
+  }

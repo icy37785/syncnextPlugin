@@ -1,0 +1,309 @@
+[
+    {
+        "id": "7812ea6f-85bd-40ee-a3de-b2ed76d52bdf",
+        "Top": true,
+        "note": "粤语港剧社区平台",
+        "GEO": "Only-China",
+        "Search": true,
+        "title": "埋堆堆",
+        "name": "SyncnextMDD",
+        "api": "Syncnext://MDD"
+    },
+    {
+        "id": "e10df297-5359-41dd-8d29-dcc103ecb8b7",
+        "Top": true,
+        "note": "片源高畫質追求",
+        "Search": true,
+        "title": "低端視頻",
+        "name": "SyncnextDDRK",
+        "api": "Syncnext://DDRK"
+    },
+    {
+        "id": "4762c94c-94bd-47a1-a903-a93431c89165",
+        "Top": true,
+        "note": "海外剧、综艺、动漫",
+        "Search": true,
+        "title": "廠長資源",
+        "name": "SyncnextCZSPP",
+        "api": "Syncnext://CZSPP"
+    },
+    {
+        "id": "d76326d5-69c2-4dce-a86c-50bbdd478000",
+        "Top": true,
+        "note": "海量動漫",
+        "Search": true,
+        "title": "AGE 動漫",
+        "name": "SyncnextAGE",
+        "api": "Syncnext://AGE"
+    },
+    {
+        "id": "b374a438-50e3-4b89-b555-62781f5ad7fb",
+        "Top": true,
+        "note": "海外 IP",
+        "Search": true,
+        "title": "歐樂影院",
+        "name": "SyncnextOLE",
+        "api": "Syncnext://OLE"
+    },
+    {
+        "id": "4cd6c579-1d6f-42d9-a9be-c26d3cbfd835",
+        "Top": true,
+        "note": "海外華人在綫影院",
+        "GEO": "Non-China",
+        "Search": true,
+        "name": "泥视频",
+        "api": "syncnextPlugin://https://raw.githubusercontent.com/icy37785/syncnextPlugin/main/alpha_v2/nivod.json"
+    },
+    {
+        "id": "219e7e12-51d4-4e62-9707-7307dc5ca7ff",
+        "Top": true,
+        "note": "海外華人免費影視大全",
+        "GEO": "Non-China",
+        "Search": true,
+        "name": "星视界",
+        "api": "syncnextPlugin://https://raw.githubusercontent.com/icy37785/syncnextPlugin/main/alpha_v2/histar.json"
+    },
+    {
+        "id": "9ac32fd6-0734-468b-8afc-257b02f30bd8",
+        "Top": true,
+        "note": "1080P 3M",
+        "name": "哔嘀影视",
+        "api": "syncnextPlugin://https://raw.githubusercontent.com/icy37785/syncnextPlugin/main/alpha_v2/bdys.json"
+    },
+    {
+        "id": "8f7b10ec-d34c-483b-93a9-f33e83ba8b2e",
+        "Top": true,
+        "note": "國內視頻網站索引",
+        "name": "360影視大全",
+        "api": "syncnextPlugin://https://raw.githubusercontent.com/icy37785/syncnextPlugin/main/alpha_v2/360kan.json"
+    },
+    {
+        "id": "06597cd6-593b-45fe-9a4f-fa8e42c7397a",
+        "Top": true,
+        "note": "斗鱼直播平台",
+        "name": "鬥魚直播",
+        "api": "syncnextPlugin://https://raw.githubusercontent.com/icy37785/syncnextPlugin/main/alpha_v2/douyuM.json"
+    },
+    {
+        "id": "a3501411-30ad-4ad7-bbe4-d3870e9ab042",
+        "Top": true,
+        "note": "虎牙直播平台",
+        "name": "虎牙直播",
+        "api": "syncnextPlugin://https://raw.githubusercontent.com/icy37785/syncnextPlugin/main/alpha_v2/huya.json"
+    },
+    {
+        "id": "668f455a-a101-41a2-91c0-388f7ab42a47",
+        "Top": true,
+        "note": "二次元弹幕直播平台",
+        "name": "bilibili直播",
+        "api": "syncnextPlugin://https://raw.githubusercontent.com/icy37785/syncnextPlugin/main/alpha_v2/bili_live.json"
+    },
+    {
+        "id": "c62ab540-a86d-445b-a16a-feb54840a240",
+        "Top": true,
+        "note": "1080P 4M",
+        "Search": true,
+        "name": "快看资源",
+        "Cover": "https://i.ibb.co/qFfYpvB/0-46909073898760023.png",
+        "api": "https://kuaikan-api.com/api.php/provide/vod/from/kuaikan/at/xml"
+    },
+    {
+        "id": "64d12539-f3e6-4b88-b29c-4fac02732428",
+        "Top": true,
+        "note": "海外 IP，插入式廣告",
+        "GEO": "Non-China",
+        "Search": true,
+        "name": "海外看資源",
+        "ADBlockModel": "haiwaikan_v5",
+        "api": "https://haiwaikan.com/api.php/provide/vod/at/xml "
+    },
+    {
+        "id": "e0d40c59-521b-494b-9a21-aae5e265c305",
+        "Top": true,
+        "note": "無貼片，插入式廣告",
+        "GEO": "Only-China",
+        "Search": true,
+        "name": "量子資源",
+        "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/at/xml/"
+    },
+    {
+        "id": "0768525d-1a26-4c9e-a07c-4f3335846dbb",
+        "Top": true,
+        "note": "1080P 2.5M，插入式廣告",
+        "GEO": "Only-China",
+        "Search": true,
+        "name": "非凡资源",
+        "api": "http://new.ffzyapi8.com/api.php/provide/vod/from/ffm3u8/at/xml/"
+    },
+    {
+        "id": "0c22e686-b494-4e78-b2e1-7fa919c01e00",
+        "Top": false,
+        "note": "H動漫/裏番/線上看",
+        "GEO": "Non-China",
+        "Search": false,
+        "Adult": true,
+        "name": "hanime1动漫",
+        "api": "syncnextPlugin://https://raw.githubusercontent.com/icy37785/syncnextPlugin/main/alpha_v2/hanime1.json"
+    },
+    {
+        "id": "d2e8afb9-c98e-426c-bb09-82eee63c73e3",
+        "Top": false,
+        "note": "CC 版權電影",
+        "name": "開放電影",
+        "api": "https://vod-demo.onrender.com/pubdovod.php"
+    },
+    {
+        "id": "6695aac7-6ed9-4991-a2b9-7baa4a0d5567",
+        "Top": false,
+        "note": "有貼片",
+        "Search": true,
+        "name": "紅牛資源",
+        "api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/at/xml"
+    },
+    {
+        "id": "5a6e8233-4144-47e5-b9cc-c4bd37f20dac",
+        "note": "匹配海外看和量子",
+        "Search": true,
+        "name": "唐人街",
+        "api": "https://www.tangrenjie.tv/api.php/provide/vod/at/xml"
+    },
+    {
+        "id": "6f9c4fab-c7a7-4fc4-a008-838750e0fc79",
+        "Search": false,
+        "Adult": true,
+        "name": "森林资源",
+        "api": "https://slapibf.com/api.php/provide/vod/at/xml"
+    },
+    {
+        "id": "980a86de-5970-4e03-863c-a7ff534e0e84",
+        "Search": false,
+        "Adult": true,
+        "name": "影库资源网",
+        "api": "https://api.ykapi.net/api.php/provide/vod/at/xml"
+    },
+    {
+        "id": "50f973e6-8bce-473c-8a09-3656fe171483",
+        "note": "720P 文字貼片 1.25M",
+        "Search": true,
+        "name": "快车资源",
+        "api": "https://caiji.kczyapi.com/api.php/provide/vod/from/kcm3u8/at/xml "
+    },
+    {
+        "id": "e94323bf-8814-458a-9e74-f7546167343a",
+        "Search": false,
+        "Adult": true,
+        "name": "探探资源",
+        "api": "https://apittzy.com/api.php/provide/vod/at/xml"
+    },
+    {
+        "id": "92adddc8-9694-4004-8e90-83efec6ceb87",
+        "note": "720P 文字貼片 1M",
+        "Search": true,
+        "name": "金鹰资源",
+        "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/xml"
+    },
+    {
+        "id": "37aa0502-59a1-4f87-96d9-e8fb9ac17a32",
+        "note": "720P 文字貼片 1.8M",
+        "Search": true,
+        "name": "光速资源",
+        "api": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/at/xml"
+    },
+    {
+        "id": "d922f858-5100-4ccd-959f-a71510e390e6",
+        "Adult": true,
+        "name": "老鸭资源采集",
+        "api": "https://api.apilyzy.com/api.php/provide/vod/at/xml"
+    },
+    {
+        "id": "c881dcf3-d311-4e7d-b4e9-72e44f7ac808",
+        "Adult": true,
+        "name": "奥斯卡资源网",
+        "api": "https://aosikazy.com/api.php/provide/vod/at/xml"
+    },
+    {
+        "id": "a35c132a-8f52-4947-ad32-480732a7dee9",
+        "note": "720P 文字貼片 0.85M",
+        "Search": true,
+        "name": "U酷资源",
+        "api": "https://api.ukuapi.com/api.php/provide/vod/from/ukm3u8/at/xml"
+    },
+    {
+        "id": "b7f667f8-9e71-475a-acd3-9aadfb7b99b8",
+        "note": "720P 貼片，不支持搜尋",
+        "Search": false,
+        "name": "百度资源",
+        "api": "https://api.apibdzy.com/api.php/provide/vod/from/dbm3u8/at/xml/"
+    },
+    {
+        "id": "1b10947f-375f-43dd-a4a3-6265a164e003",
+        "Search": true,
+        "name": "新浪资源",
+        "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/from/xlm3u8/at/xml/"
+    },
+    {
+        "id": "92bd40cd-de59-4d38-869f-d3b5af4b5188",
+        "note": "720P 1.5M，貼片廣告",
+        "Search": true,
+        "name": "天空资源",
+        "api": "https://api.tiankongapi.com/api.php/provide/vod/from/tkm3u8/at/xml/"
+    },
+    {
+        "id": "b24cf660-5921-4588-8311-a2d753ed0708",
+        "note": "720P，貼片廣告",
+        "Search": false,
+        "Adult": true,
+        "name": "乐播",
+        "api": "https://lbapi9.com/api.php/provide/vod/at/xml/"
+    },
+    {
+        "id": "4dfda674-11ca-4e1c-a0e6-aec7668dbb58",
+        "note": "1080P，文字貼片",
+        "Search": true,
+        "name": "飞速资源",
+        "api": "https://www.feisuzyapi.com/api.php/provide/vod/from/fsm3u8/at/xmlsea/"
+    },
+    {
+        "id": "cd222053-5ec0-4083-ad83-241980cc0d6f",
+        "note": "720P，大陸IP",
+        "GEO": "Only-China",
+        "Search": true,
+        "name": "暴风资源",
+        "api": "https://bfzyapi.com/api.php/provide/vod/at/xml/"
+    },
+    {
+        "id": "047e0580-c39a-4b82-a412-848f0375751d",
+        "note": "1080P 1.5M，文字貼片",
+        "Search": true,
+        "name": "魔都资源",
+        "api": "https://www.moduzy.com/api.php/provide/vod/at/xml/"
+    },
+    {
+        "id": "0635114a-be74-41d7-ab26-61b9654fe793",
+        "note": "720P，1.5M",
+        "Search": true,
+        "name": "最大资源",
+        "api": "https://api.zuidapi.com/api.php/provide/vod/from/zuidam3u8/at/xml/"
+    },
+    {
+        "id": "640a1b68-1b22-4e0c-80a4-adfd4171f175",
+        "note": "1080P，2M，文字貼片",
+        "Search": true,
+        "Line": "M3U8kuake",
+        "name": "夸克资源",
+        "api": "http://kuakezy1.com/api.php/provide/vod/from/M3U8kuake/at/xml/"
+    },
+    {
+        "id": "23f31663-8247-4b3c-843d-e70483b23e0a",
+        "Search": false,
+        "name": "粵語劇",
+        "api": "syncnextPlugin://https://raw.githubusercontent.com/qoli/syncnextPlugin/main/alpha_v2/alpha_v2.json"
+    },
+    {
+        "id": "6758e34e-34c3-4002-af7e-94b6a83a5a14",
+        "note": "1080P，1M",
+        "Search": true,
+        "name": "索尼资源网",
+        "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/at/xml/"
+    }
+]

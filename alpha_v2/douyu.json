@@ -1,0 +1,54 @@
+{
+    "name": "斗鱼直播",
+    "description": "斗鱼直播平台",
+    "host": "https://www.douyu.com",
+    "files": ["util.js","crypto-js.min.js", "douyu.min.js"],
+    "pages": [
+      {
+        "key": "index",
+        "title": "首頁",
+        "url": "${pageNumber}",
+        "javascript": "buildMedias"
+      },
+      {
+          "key": "LOL",
+          "title": "英雄联盟",
+          "url": "${pageNumber}-LOL",
+          "javascript": "buildMedias"
+      },
+      {
+          "key": "TVgame",
+          "title": "主机游戏",
+          "url": "${pageNumber}-TVgame",
+          "javascript": "buildMedias"
+      },
+      {
+          "key": "ecy",
+          "title": "二次元",
+          "url": "${pageNumber}-ecy",
+          "javascript": "buildMedias"
+      },
+      {
+          "key": "yz",
+          "title": "颜值",
+          "url": "${pageNumber}-yz",
+          "javascript": "buildMedias"
+      },
+      {
+          "key": "xingxiu",
+          "title": "星秀",
+          "url": "${pageNumber}-xingxiu",
+          "javascript": "buildMedias"
+      }
+    ],
+    "episodes": {
+      "javascript": "Episodes"
+    },
+    "player": {
+      "javascript": "Player"
+    },
+    "search": {
+        "url": "${keyword}",
+        "javascript": "Search"
+    }
+  }

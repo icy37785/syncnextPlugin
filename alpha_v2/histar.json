@@ -1,0 +1,228 @@
+{
+    "name": "星视界",
+    "description": "海外華人免費影視大全",
+    "host": "https://www.histar.tv",
+    "files": ["util.js","histar.min.js"],
+    "pages": [
+      {
+        "key": "index",
+        "title": "最近更新",
+        "url": "${pageNumber}",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "movie",
+        "title": "电影",
+        "url": "${pageNumber}-电影",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "tv",
+        "title": "电视剧",
+        "url": "${pageNumber}-电视剧",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "cartoon",
+        "title": "动漫",
+        "url": "${pageNumber}-动漫",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "variety",
+        "title": "综艺",
+        "url": "${pageNumber}-综艺",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "documentary",
+        "title": "纪录片",
+        "url": "${pageNumber}-纪录片",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "movie-xiju",
+        "title": "喜剧电影",
+        "url": "${pageNumber}-电影-喜剧",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "movie-dongzuo",
+        "title": "动作电影",
+        "url": "${pageNumber}-电影-动作",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "movie-kehuan",
+        "title": "科幻电影",
+        "url": "${pageNumber}-电影-科幻",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "movie-aiqing",
+        "title": "爱情电影",
+        "url": "${pageNumber}-电影-爱情",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "movie-kongbu",
+        "title": "恐怖电影",
+        "url": "${pageNumber}-电影-恐怖",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "movie-donghua",
+        "title": "动画电影",
+        "url": "${pageNumber}-电影-动画",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "movie-tongxing",
+        "title": "同性电影",
+        "url": "${pageNumber}-电影-同性",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "tv-cn",
+        "title": "大陆电视剧",
+        "url": "${pageNumber}-电视剧-大陆",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "tv-hk",
+        "title": "香港电视剧",
+        "url": "${pageNumber}-电视剧-香港",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "tv-tw",
+        "title": "台湾电视剧",
+        "url": "${pageNumber}-电视剧-台湾",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "tv-us",
+        "title": "欧美电视剧",
+        "url": "${pageNumber}-电视剧-欧美",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "tv-kr",
+        "title": "韩国电视剧",
+        "url": "${pageNumber}-电视剧-韩国",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "tv-jp",
+        "title": "日本电视剧",
+        "url": "${pageNumber}-电视剧-日本",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "tv-uk",
+        "title": "英国电视剧",
+        "url": "${pageNumber}-电视剧-英国",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "tv-th",
+        "title": "泰国电视剧",
+        "url": "${pageNumber}-电视剧-泰国",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "variety-cn",
+        "title": "国产综艺",
+        "url": "${pageNumber}-综艺-大陆",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "variety-hk",
+        "title": "香港综艺",
+        "url": "${pageNumber}-综艺-香港",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "variety-tw",
+        "title": "台湾综艺",
+        "url": "${pageNumber}-综艺-台湾",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "variety-us",
+        "title": "欧美综艺",
+        "url": "${pageNumber}-综艺-欧美",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "variety-kr",
+        "title": "韩国综艺",
+        "url": "${pageNumber}-综艺-韩国",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "variety-jp",
+        "title": "日本综艺",
+        "url": "${pageNumber}-综艺-日本",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "variety-uk",
+        "title": "英国综艺",
+        "url": "${pageNumber}-综艺-英国",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "variety-th",
+        "title": "泰国综艺",
+        "url": "${pageNumber}-综艺-泰国",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "cartoon-cn",
+        "title": "国产动漫",
+        "url": "${pageNumber}-动漫-大陆",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "cartoon-jp",
+        "title": "日本动漫",
+        "url": "${pageNumber}-动漫-日本",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "cartoon-hk",
+        "title": "香港动漫",
+        "url": "${pageNumber}-动漫-香港",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "cartoon-tw",
+        "title": "台湾动漫",
+        "url": "${pageNumber}-动漫-台湾",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "cartoon-us",
+        "title": "欧美动漫",
+        "url": "${pageNumber}-动漫-欧美",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "cartoon-kr",
+        "title": "韩国动漫",
+        "url": "${pageNumber}-动漫-韩国",
+        "javascript": "buildMedias"
+      }
+    ],
+    "episodes": {
+      "javascript": "Episodes"
+    },
+    "player": {
+      "javascript": "Player"
+    },
+    "search": {
+        "url": "${keyword}",
+        "javascript": "Search"
+    }
+}

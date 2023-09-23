@@ -1,0 +1,60 @@
+{
+    "name": "虎牙",
+    "description": "虎牙直播平台",
+    "host": "https://www.huya.com",
+    "files": ["util.js","crypto-js.min.js","huya-sign.min.js","huya.min.js"],
+    "pages": [
+      {
+        "key": "index",
+        "title": "首頁",
+        "url": "${pageNumber}-0",
+        "javascript": "buildMedias"
+      },
+      {
+          "key": "LOL",
+          "title": "英雄联盟",
+          "url": "${pageNumber}-1",
+          "javascript": "buildMedias"
+      },
+      {
+          "key": "TVgame",
+          "title": "主机游戏",
+          "url": "${pageNumber}-100032",
+          "javascript": "buildMedias"
+      },
+      {
+          "key": "ecy",
+          "title": "二次元",
+          "url": "${pageNumber}-2633",
+          "javascript": "buildMedias"
+      },
+      {
+          "key": "yz",
+          "title": "颜值",
+          "url": "${pageNumber}-2168",
+          "javascript": "buildMedias"
+      },
+      {
+          "key": "xingxiu",
+          "title": "星秀",
+          "url": "${pageNumber}-1663",
+          "javascript": "buildMedias"
+      },
+      {
+          "key": "wzry",
+          "title": "王者荣耀",
+          "url": "${pageNumber}-2336",
+          "javascript": "buildMedias"
+      }
+    ],
+    "episodes": {
+      "javascript": "Episodes"
+    },
+    "player": {
+      "javascript": "Player"
+    },
+    "search": {
+        "url": "${keyword}",
+        "javascript": "Search"
+    }
+  }

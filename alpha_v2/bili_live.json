@@ -1,0 +1,66 @@
+{
+    "name": "bilibili直播",
+    "description": "二次元弹幕直播平台",
+    "host": "https://live.bilibili.com",
+    "files": ["util.js","bili_live.min.js"],
+    "pages": [
+      {
+        "key": "index",
+        "title": "最近更新",
+        "url": "${pageNumber}",
+        "javascript": "buildMedias"
+      },
+      {
+          "key": "2",
+          "title": "网游",
+          "url": "${pageNumber}-2",
+          "javascript": "buildMedias"
+      },
+      {
+        "key": "3",
+        "title": "手游",
+        "url": "${pageNumber}-3",
+        "javascript": "buildMedias"
+      },
+      {
+          "key": "6",
+          "title": "单机游戏",
+          "url": "${pageNumber}-6",
+          "javascript": "buildMedias"
+      },
+      {
+        "key": "1",
+        "title": "娱乐",
+        "url": "${pageNumber}-1",
+        "javascript": "buildMedias"
+    },
+      {
+          "key": "5",
+          "title": "电台",
+          "url": "${pageNumber}-5",
+          "javascript": "buildMedias"
+      },
+      {
+          "key": "9",
+          "title": "虚拟主播",
+          "url": "${pageNumber}-9",
+          "javascript": "buildMedias"
+      },
+      {
+          "key": "13",
+          "title": "赛事",
+          "url": "${pageNumber}-13",
+          "javascript": "buildMedias"
+      }
+    ],
+    "episodes": {
+      "javascript": "Episodes"
+    },
+    "player": {
+      "javascript": "Player"
+    },
+    "search": {
+        "url": "${keyword}",
+        "javascript": "Search"
+    }
+  }

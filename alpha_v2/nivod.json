@@ -1,0 +1,210 @@
+{
+    "name": "泥视频",
+    "description": "海外華人在綫影院",
+    "host": "https://www.nivod4.tv",
+    "files": ["util.js","crypto-js.min.js","nivod-sign.min.js","nivod.min.js"],
+    "pages": [
+      {
+        "key": "index",
+        "title": "电视剧",
+        "url": "2-${pageNumber}",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "movie",
+        "title": "电影",
+        "url": "1-${pageNumber}",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "variety",
+        "title": "综艺",
+        "url": "3-${pageNumber}",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "cartoon",
+        "title": "动漫",
+        "url": "4-${pageNumber}",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "short",
+        "title": "短视频",
+        "url": "15-${pageNumber}",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "18x",
+        "title": "午夜場",
+        "url": "7-${pageNumber}",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "movie-xiju",
+        "title": "喜剧电影",
+        "url": "1-${pageNumber}-1",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "movie-dongzuo",
+        "title": "动作电影",
+        "url": "1-${pageNumber}-3",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "movie-kehuan",
+        "title": "科幻电影",
+        "url": "1-${pageNumber}-5",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "movie-aiqing",
+        "title": "爱情电影",
+        "url": "1-${pageNumber}-2",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "movie-kongbu",
+        "title": "恐怖电影",
+        "url": "1-${pageNumber}-9",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "movie-donghua",
+        "title": "动画电影",
+        "url": "1-${pageNumber}-16",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "movie-tongxing",
+        "title": "同性电影",
+        "url": "1-${pageNumber}-17",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "tv-cn",
+        "title": "大陆电视剧",
+        "url": "2-${pageNumber}-1",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "tv-hk",
+        "title": "香港电视剧",
+        "url": "2-${pageNumber}-11",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "tv-tw",
+        "title": "台湾电视剧",
+        "url": "2-${pageNumber}-12",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "tv-us",
+        "title": "欧美电视剧",
+        "url": "2-${pageNumber}-4",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "tv-kr",
+        "title": "韩国电视剧",
+        "url": "2-${pageNumber}-14",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "tv-jp",
+        "title": "日本电视剧",
+        "url": "2-${pageNumber}-13",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "tv-th",
+        "title": "泰国电视剧",
+        "url": "2-${pageNumber}-15",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "variety-cn",
+        "title": "国产综艺",
+        "url": "3-${pageNumber}-1",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "variety-hk",
+        "title": "香港综艺",
+        "url": "3-${pageNumber}-11",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "variety-tw",
+        "title": "台湾综艺",
+        "url": "3-${pageNumber}-12",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "variety-us",
+        "title": "欧美综艺",
+        "url": "3-${pageNumber}-4",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "variety-kr",
+        "title": "韩国综艺",
+        "url": "3-${pageNumber}-14",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "variety-jp",
+        "title": "日本综艺",
+        "url": "3-${pageNumber}-13",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "cartoon-cn",
+        "title": "国产动漫",
+        "url": "4-${pageNumber}-1",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "cartoon-jp",
+        "title": "日本动漫",
+        "url": "4-${pageNumber}-13",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "cartoon-hk",
+        "title": "香港动漫",
+        "url": "4-${pageNumber}-11",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "cartoon-tw",
+        "title": "台湾动漫",
+        "url": "4-${pageNumber}-12",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "cartoon-us",
+        "title": "欧美动漫",
+        "url": "4-${pageNumber}-4",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "cartoon-kr",
+        "title": "韩国动漫",
+        "url": "4-${pageNumber}-14",
+        "javascript": "buildMedias"
+      }
+    ],
+    "episodes": {
+      "javascript": "Episodes"
+    },
+    "player": {
+      "javascript": "Player"
+    },
+    "search": {
+        "url": "${keyword}",
+        "javascript": "Search"
+    }
+}

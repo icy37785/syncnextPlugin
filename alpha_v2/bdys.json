@@ -1,0 +1,168 @@
+{
+    "name": "哔嘀影视",
+    "description": "1080P 3M",
+    "host": "https://www.bdys10.com/",
+    "files": ["util.js","txml.js","crypto-js.min.js","bdys-sign.min.js","bdys.min.js"],
+    "pages": [
+      {
+        "key": "index",
+        "title": "最近更新",
+        "url": "https://www.bdys10.com/s/all/${pageNumber}",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "movie",
+        "title": "电影",
+        "url": "https://www.bdys10.com/s/all/${pageNumber}?type=0",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "tv",
+        "title": "电视剧",
+        "url": "https://www.bdys10.com/s/all/${pageNumber}?type=1",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "cartoon",
+        "title": "动漫",
+        "url": "https://www.bdys10.com/s/donghua/${pageNumber}?type=1",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "variety",
+        "title": "综艺",
+        "url": "https://www.bdys10.com/s/zongyi/${pageNumber}",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "movie-xiju",
+        "title": "喜剧电影",
+        "url": "https://www.bdys10.com/s/xiju/${pageNumber}?type=0",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "movie-dongzuo",
+        "title": "动作电影",
+        "url": "https://www.bdys10.com/s/dongzuo/${pageNumber}?type=0",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "movie-kehuan",
+        "title": "科幻电影",
+        "url": "https://www.bdys10.com/s/kehuan/${pageNumber}?type=0",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "movie-aiqing",
+        "title": "爱情电影",
+        "url": "https://www.bdys10.com/s/aiqing/${pageNumber}?type=0",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "movie-kongbu",
+        "title": "恐怖电影",
+        "url": "https://www.bdys10.com/s/kongbu/${pageNumber}?type=0",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "movie-donghua",
+        "title": "动画电影",
+        "url": "https://www.bdys10.com/s/donghua/${pageNumber}?type=0",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "tv-cn",
+        "title": "大陆电视剧",
+        "url": "https://www.bdys10.com/s/all/${pageNumber}?type=1&area=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "tv-hk",
+        "title": "香港电视剧",
+        "url": "https://www.bdys10.com/s/all/${pageNumber}?type=1&area=%E4%B8%AD%E5%9B%BD%E9%A6%99%E6%B8%AF",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "tv-tw",
+        "title": "台湾电视剧",
+        "url": "https://www.bdys10.com/s/all/${pageNumber}?type=1&area=%E4%B8%AD%E5%9B%BD%E5%8F%B0%E6%B9%BE",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "tv-us",
+        "title": "欧美电视剧",
+        "url": "https://www.bdys10.com/s/meiju/${pageNumber}",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "tv-kr",
+        "title": "韩国电视剧",
+        "url": "https://www.bdys10.com/s/hanju/${pageNumber}",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "tv-jp",
+        "title": "日本电视剧",
+        "url": "https://www.bdys10.com/s/riju/${pageNumber}",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "tv-uk",
+        "title": "英国电视剧",
+        "url": "https://www.bdys10.com/s/yingju/${pageNumber}",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "tv-th",
+        "title": "泰国电视剧",
+        "url": "https://www.bdys10.com/s/taiju/${pageNumber}",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "variety-cn",
+        "title": "国产综艺",
+        "url": "https://www.bdys10.com/s/zongyi/${pageNumber}?area=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "variety-kr",
+        "title": "韩国综艺",
+        "url": "https://www.bdys10.com/s/zongyi/${pageNumber}?area=%E9%9F%A9%E5%9B%BD",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "cartoon-cn",
+        "title": "国产动漫",
+        "url": "https://www.bdys10.com/s/donghua/${pageNumber}?type=1&area=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "cartoon-jp",
+        "title": "日本动漫",
+        "url": "https://www.bdys10.com/s/donghua/${pageNumber}?type=1&area=%E6%97%A5%E6%9C%AC",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "cartoon-us",
+        "title": "欧美动漫",
+        "url": "https://www.bdys10.com/s/donghua/${pageNumber}?type=1&area=%E7%BE%8E%E5%9B%BD",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "cartoon-kr",
+        "title": "韩国动漫",
+        "url": "https://www.bdys10.com/s/donghua/${pageNumber}?type=1&area=%E9%9F%A9%E5%9B%BD",
+        "javascript": "buildMedias"
+      }
+    ],
+    "episodes": {
+      "javascript": "Episodes"
+    },
+    "player": {
+      "javascript": "Player"
+    },
+    "search": {
+        "url": "${keyword}",
+        "javascript": "Search"
+    }
+  }

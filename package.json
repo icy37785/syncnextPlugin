@@ -1,0 +1,16 @@
+{
+  "name": "syncnextplugin",
+  "version": "1.0.0",
+  "description": "Syncnext 插件化",
+  "main": "app.js",
+  "scripts": {
+    "test": "node node_Test.js"
+  },
+  "author": "icy37785",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "node-fetch": "^2.7.0",
+    "txml": "^5.1.1"
+  }
+}

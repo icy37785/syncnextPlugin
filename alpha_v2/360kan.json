@@ -1,0 +1,42 @@
+{
+    "name": "360影视",
+    "description": "國內視頻網站合集",
+    "host": "https://www.360kan.com",
+    "files": ["util.js","video-parser.min.js","360kan.min.js"],
+    "pages": [
+        {
+            "key": "index",
+            "title": "电视剧",
+            "url": "2-${pageNumber}",
+            "javascript": "buildMedias"
+        },
+        {
+            "key": "movie",
+            "title": "电影",
+            "url": "1-${pageNumber}",
+            "javascript": "buildMedias"
+        },
+        {
+            "key": "cartoon",
+            "title": "动漫",
+            "url": "4-${pageNumber}",
+            "javascript": "buildMedias"
+        },
+        {
+            "key": "variety",
+            "title": "综艺",
+            "url": "3-${pageNumber}",
+            "javascript": "buildMedias"
+        }
+    ],
+    "episodes": {
+      "javascript": "Episodes"
+    },
+    "player": {
+      "javascript": "Player"
+    },
+    "search": {
+        "url": "${keyword}",
+        "javascript": "Search"
+    }
+  }
