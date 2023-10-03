@@ -146,6 +146,14 @@
         "api": "syncnextPlugin://https://raw.githubusercontent.com/icy37785/syncnextPlugin/main/alpha_v2/hanime1.json"
     },
     {
+        "id": "293049ba-47a0-4e21-9f1e-7a4f2f0eda9c",
+        "note": "免費18x直播平台",
+        "GEO": "Non-China",
+        "Adult": true,
+        "name": "stripchat直播",
+        "api": "syncnextPlugin://https://raw.githubusercontent.com/icy37785/syncnextPlugin/main/alpha_v2/stripchat.json"
+    },
+    {
         "id": "d2e8afb9-c98e-426c-bb09-82eee63c73e3",
         "Top": false,
         "note": "CC 版權電影",

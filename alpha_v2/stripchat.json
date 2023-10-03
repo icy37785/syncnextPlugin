@@ -15,6 +15,12 @@
         "title": "日文直播",
         "url": "%5B%5B%22tagLanguageJapanese%22%5D%5D-${pageNumber}",
         "javascript": "buildMedias"
+      },
+      {
+        "key": "ukrainian",
+        "title": "乌克兰女主播",
+        "url": "%5B%5B%22tagLanguageUkrainian%22%5D%5D-${pageNumber}",
+        "javascript": "buildMedias"
       }
     ],
     "episodes": {
