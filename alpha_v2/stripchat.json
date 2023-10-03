@@ -1,0 +1,30 @@
+{
+    "name": "stripchat直播",
+    "description": "免費18x直播平台",
+    "host": "https://zh.stripchat.com/",
+    "files": ["util.js","stripchat.min.js"],
+    "pages": [
+      {
+        "key": "index",
+        "title": "中文直播",
+        "url": "%5B%5B%22tagLanguageChinese%22%5D%5D-${pageNumber}",
+        "javascript": "buildMedias"
+      },
+      {
+        "key": "japanese",
+        "title": "日文直播",
+        "url": "%5B%5B%22tagLanguageJapanese%22%5D%5D-${pageNumber}",
+        "javascript": "buildMedias"
+      }
+    ],
+    "episodes": {
+      "javascript": "Episodes"
+    },
+    "player": {
+      "javascript": "Player"
+    },
+    "search": {
+        "url": "${keyword}",
+        "javascript": "Search"
+    }
+  }
