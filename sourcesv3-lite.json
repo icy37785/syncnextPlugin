@@ -1,0 +1,55 @@
+[
+    {
+        "id": "4cd6c579-1d6f-42d9-a9be-c26d3cbfd835",
+        "Top": true,
+        "note": "海外華人在綫影院",
+        "GEO": "Non-China",
+        "Search": true,
+        "name": "泥视频",
+        "api": "syncnextPlugin://https://raw.githubusercontent.com/icy37785/syncnextPlugin/main/alpha_v2/nivod.json"
+    },
+    {
+        "id": "219e7e12-51d4-4e62-9707-7307dc5ca7ff",
+        "Top": true,
+        "note": "海外華人免費影視大全",
+        "GEO": "Non-China",
+        "Search": true,
+        "name": "星视界",
+        "api": "syncnextPlugin://https://raw.githubusercontent.com/icy37785/syncnextPlugin/main/alpha_v2/histar.json"
+    },
+    {
+        "id": "9ac32fd6-0734-468b-8afc-257b02f30bd8",
+        "Top": true,
+        "note": "1080P 3M",
+        "name": "哔嘀影视",
+        "api": "syncnextPlugin://https://raw.githubusercontent.com/icy37785/syncnextPlugin/main/alpha_v2/bdys.json"
+    },
+    {
+        "id": "8f7b10ec-d34c-483b-93a9-f33e83ba8b2e",
+        "Top": true,
+        "note": "國內視頻網站索引",
+        "name": "360影視大全",
+        "api": "syncnextPlugin://https://raw.githubusercontent.com/icy37785/syncnextPlugin/main/alpha_v2/360kan.json"
+    },
+    {
+        "id": "06597cd6-593b-45fe-9a4f-fa8e42c7397a",
+        "Top": true,
+        "note": "斗鱼直播平台",
+        "name": "鬥魚直播",
+        "api": "syncnextPlugin://https://raw.githubusercontent.com/icy37785/syncnextPlugin/main/alpha_v2/douyuM.json"
+    },
+    {
+        "id": "a3501411-30ad-4ad7-bbe4-d3870e9ab042",
+        "Top": true,
+        "note": "虎牙直播平台",
+        "name": "虎牙直播",
+        "api": "syncnextPlugin://https://raw.githubusercontent.com/icy37785/syncnextPlugin/main/alpha_v2/huya.json"
+    },
+    {
+        "id": "668f455a-a101-41a2-91c0-388f7ab42a47",
+        "Top": true,
+        "note": "二次元弹幕直播平台",
+        "name": "bilibili直播",
+        "api": "syncnextPlugin://https://raw.githubusercontent.com/icy37785/syncnextPlugin/main/alpha_v2/bili_live.json"
+    }
+]

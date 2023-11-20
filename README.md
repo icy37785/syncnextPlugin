@@ -6,8 +6,10 @@ PS.目前鬥魚的高碼率源只提供flv格式，syncnext 使用 avplayer 暫�
 
 |  完整訂閲  |  訂閲地址  |
 | --- | --- |
-|原版|`https://raw.githubusercontent.com/qoli/syncnext-api/main/sourcesv3.json`|
-|自用|`https://raw.githubusercontent.com/icy37785/syncnextPlugin/main/sourcesv3.json`|
+|原版-測試源|`https://raw.githubusercontent.com/qoli/syncnext-api/main/sourcesv3.json`|
+|自用-包含原版源和自用18x源|`https://raw.githubusercontent.com/icy37785/syncnextPlugin/main/sourcesv3.json`|
+|自用-不包含原版源和自用18x源|`https://raw.githubusercontent.com/icy37785/syncnextPlugin/main/sourcesv3-lite.json`|
+|自用-18x源|`https://raw.githubusercontent.com/icy37785/syncnextPlugin/main/sourcesv3-18x.json`|
 
 |  插件名稱  |  插件地址  |
 | --- | --- |
@@ -19,3 +21,4 @@ PS.目前鬥魚的高碼率源只提供flv格式，syncnext 使用 avplayer 暫�
 | B站直播 |`syncnextPlugin://https://raw.githubusercontent.com/icy37785/syncnextPlugin/main/alpha_v2/bili_live.json`|
 | 虎牙直播 |`syncnextPlugin://https://raw.githubusercontent.com/icy37785/syncnextPlugin/main/alpha_v2/huya.json`|
 | hanime1動漫 |`syncnextPlugin://https://raw.githubusercontent.com/icy37785/syncnextPlugin/main/alpha_v2/hanime1.json`|
+| stripchat直播 |`syncnextPlugin://https://raw.githubusercontent.com/icy37785/syncnextPlugin/main/alpha_v2/stripchat.json`|
