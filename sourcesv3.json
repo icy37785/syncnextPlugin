@@ -100,9 +100,9 @@
     },
     {
         "id": "c62ab540-a86d-445b-a16a-feb54840a240",
-        "Top": true,
-        "note": "1080P 4M",
-        "Search": true,
+        "Top": false,
+        "note": "1080P 4M，限制搜索",
+        "Search": false,
         "name": "快看资源",
         "Cover": "https://i.ibb.co/qFfYpvB/0-46909073898760023.png",
         "api": "https://kuaikan-api.com/api.php/provide/vod/from/kuaikan/at/xml"
@@ -302,16 +302,72 @@
         "api": "http://kuakezy1.com/api.php/provide/vod/from/M3U8kuake/at/xml/"
     },
     {
-        "id": "23f31663-8247-4b3c-843d-e70483b23e0a",
-        "Search": false,
-        "name": "粵語劇",
-        "api": "syncnextPlugin://https://raw.githubusercontent.com/qoli/syncnextPlugin/main/alpha_v2/alpha_v2.json"
-    },
-    {
         "id": "6758e34e-34c3-4002-af7e-94b6a83a5a14",
+        "Top": true,
         "note": "1080P，1M",
         "Search": true,
         "name": "索尼资源网",
         "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/at/xml/"
+    },
+    {
+        "id": "5ad3f3f0-00e1-48c7-bdc4-1fe425c6dbe2",
+        "note": "1080P，1.5M，不支持搜尋",
+        "name": "高清资源库网",
+        "api": "https://api.1080zyku.com/inc/api.php"
+    },
+    {
+        "id": "a4d39533-26b5-4621-90e7-87d5f58cb35a",
+        "note": "非凡資源的鏡像源",
+        "Search": true,
+        "name": "映迷"
+    },
+    {
+        "id": "625b4542-bc7c-4912-97f4-1b3fc54c9d14",
+        "note": "720P，貼片廣告",
+        "Search": true,
+        "name": "快车资源"
+    },
+    {
+        "id": "fe98b7e7-b580-44fb-9dbb-0b83b2b6572c",
+        "note": "1080P",
+        "Search": true,
+        "name": "闪电资源"
+    },
+    {
+        "id": "f0692950-e1f1-41f8-a078-7e3fce73544c",
+        "Search": true,
+        "name": "影图资源",
+        "api": "https://cj.vodimg.top/api.php/provide/vod/at/xml/"
+    },
+    {
+        "id": "515d5ad0-c50e-453b-912a-4f4dbc4d3ca5",
+        "Search": true,
+        "name": "feifei67",
+        "api": "http://www.feifei67.com/api.php/provide/vod/at/xml"
+    },
+    {
+        "id": "24aab7de-2ee8-4194-8038-3572d2c59556",
+        "Search": true,
+        "name": "每天看看",
+        "api": "http://47.113.126.237:1234/api.php/provide/vod/at/xml"
+    },
+    {
+        "id": "0f52aeca-48bd-4992-93d5-f3705da6a768",
+        "Search": true,
+        "name": "影图资源",
+        "api": "https://cj.vodimg.top/api.php/provide/vod/at/xml/"
+    },
+    {
+        "id": "6d0d8d11-3b8f-4379-9ffd-603da72ea0ca",
+        "Search": true,
+        "name": "虎牙資源",
+        "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8/at/xml/"
+    },
+    {
+        "id": "23f31663-8247-4b3c-843d-e70483b23e0a",
+        "note": "720P，無廣告。OneDrive 網盤地址。",
+        "Search": true,
+        "name": "粵語劇",
+        "api": "syncnextPlugin://https://raw.githubusercontent.com/qoli/syncnextPlugin/main/plugin_colafun/config.json"
     }
 ]
